@@ -1,7 +1,7 @@
 # Redis
 
 % databases
-#plateform/linux #target/remote #cat/RECON #cat/ATTACK/CONNECT
+#platform/linux #target/remote #cat/RECON #cat/ATTACK/CONNECT
 
 ## connect to the local server
 ```bash

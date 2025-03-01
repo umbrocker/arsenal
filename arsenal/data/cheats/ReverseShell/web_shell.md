@@ -1,7 +1,7 @@
 # web shell
 
 % web, shell, webshell, shellweb, weevely
-#plateform/linux #target/local #cat/ATTACK/WEB_SHELL 
+#platform/linux #target/local #cat/ATTACK/WEB_SHELL 
 
 ## weevely web shell generation with output file
 ```

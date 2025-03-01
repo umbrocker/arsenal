@@ -2,7 +2,7 @@
 
 % wpscan, wordpress
 
-#plateform/linux #target/remote #cat/RECON 
+#platform/linux #target/remote #cat/RECON 
 ## basic wpscan
 ```
 wpscan --url <url> --disable-tls-checks -e ap,tt,cb,dbe,u
