@@ -5,6 +5,7 @@ import fcntl
 import termios
 import re
 import time
+import pyperclip
 from curses import wrapper
 
 # arsenal
@@ -193,6 +194,9 @@ class App:
             message += "echo \"dev.tty.legacy_tiocsti=1\" >> /etc/sysctl.conf\n"
             message += "More details about this bug here: https://github.com/Orange-Cyberdefense/arsenal/issues/77"
             print(message)
+            pyperclip.copy(cmd.cmdline)
+            print("========== OSError ============")
+            print(f'[+] Copied to clipboard: {cmd.cmdline}')
         # restore TTY attribute for stdin
         termios.tcsetattr(stdin, termios.TCSADRAIN, oldattr)
 
